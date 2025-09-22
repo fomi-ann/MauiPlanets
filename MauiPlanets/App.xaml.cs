@@ -5,12 +5,14 @@ using Microsoft.UI.Windowing;
 using Windows.Graphics;
 #endif
 
+using MauiPlanets.Views;
+
 namespace MauiPlanets
 {
     public partial class App : Application
     {
-        const int WindowWidth = 1080;
-        const int WindowHeight = 1920;
+        const int WindowWidth = 720;
+        const int WindowHeight = 1280;
         public App()
         {
             InitializeComponent();
@@ -27,11 +29,13 @@ namespace MauiPlanets
                 appWindow.Resize(new SizeInt32(WindowWidth, WindowHeight));
             #endif
             });
+
+            MainPage = new StartPage();
         }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+        //protected override Window CreateWindow(IActivationState? activationState)
+        //{
+        //    return new Window(new AppShell());
+        //}
     }
 }
