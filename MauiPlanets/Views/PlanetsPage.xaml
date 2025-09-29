@@ -128,14 +128,13 @@
                         SelectionChanged="Planets_SelectionChanged">
 
                         <CollectionView.ItemsLayout>
-                            <LinearItemsLayout
+                            <LinearItemsLayout 
                                 Orientation="Horizontal"
                                 ItemSpacing="16"/>
                         </CollectionView.ItemsLayout>
 
                         <CollectionView.ItemTemplate>
                             <DataTemplate
-                                
                                 x:DataType="models:Planet">
                                 <Border
                                     VerticalOptions="Fill"
@@ -145,7 +144,7 @@
                                     Padding="20">
 
                                     <Border.StrokeShape>
-                                        <RoundRectangle CornerRadius="24" />
+                                        <RoundRectangle CornerRadius="24"/>
                                     </Border.StrokeShape>
 
                                     <Grid
@@ -158,8 +157,8 @@
                                             Rotation="-30"
                                             Aspect="AspectFill"
                                             VerticalOptions="Fill"
-                                            HorizontalOptions="Fill"/>
-                                        <Label
+                                            HorizontalOptions="Fill" />
+                                        <Label 
                                             Grid.Row="1"
                                             Style="{StaticResource FeaturedPlanetHeaderStyle}"
                                             Text="{Binding Name}"
@@ -168,14 +167,12 @@
                                             Grid.Row="2"
                                             Style="{StaticResource FeaturedPlanetHeaderSubtitleStyle}"
                                             Text="{Binding Subtitle}"/>
-
                                     </Grid>
                                 </Border>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
-                        
                     </CollectionView>
-                    
+
                     <!--More Section-->
                     <Label
                         Style="{StaticResource PageSubHeaderStyle}"
