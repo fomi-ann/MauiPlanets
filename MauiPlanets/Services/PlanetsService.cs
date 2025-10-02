@@ -155,5 +155,7 @@ namespace MauiPlanets.Services
 
         public static List<Planet> GetAllPlanets()
             => planets;
+
+        
     }
 }
