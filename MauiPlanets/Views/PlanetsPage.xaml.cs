@@ -25,6 +25,12 @@ public partial class PlanetsPage : ContentPage
 	{
 		await Navigation.PushAsync(new PlanetDetailsPage(e.CurrentSelection.First() as Planet));
 	}
+
+	async void DwarfPlanets_SelectionChanged(System.Object sender, Microsoft.Maui.Controls.SelectionChangedEventArgs e)
+	{
+		await Navigation.PushAsync(new DwarfPlanetDetailPage(e.CurrentSelection.First() as DwarfPlanet));
+	}
+
 	async void ProfilePic_Clicked(System.Object sender, System.EventArgs e)
 	{
 		_ = MainContentGrid.TranslateTo(-this.Width * 0.5, this.Height * 0.1, AnimationDuration, Easing.CubicIn);
