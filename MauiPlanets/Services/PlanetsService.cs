@@ -21,9 +21,8 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
                 {
-                    "https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
+                    "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:224,cw:576,ch:576,q:80,w:576/fjbeeRiPRQjQNhizwy7cWX.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mercury_render_with_Blender_01.png/250px-Mercury_render_with_Blender_01.png"
                 }
             },
 
@@ -37,10 +36,7 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#d17f21"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/143_Venus-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/147_Hubble_Venus_Clouds-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/146_venus_carousel_3.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
+                    "https://c02.purpledshub.com/uploads/sites/48/2020/09/Venus-Akatsuki-20a1b9a.jpg?w=1029&webp=1"
                 }
             },
 
